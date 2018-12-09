@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- pwa meta tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="JConf">
+    <meta name="google-site-verification" content="u_cfO4VzTW5dnSb07DzlDIS_-OzYUoaq1Mx4IEJGd_A" />
+
+
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="components/calendar/calendar.css">
+    <link rel="stylesheet" href="./assets/css/flag-icon.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC" rel="stylesheet">
+    <!-- Load an icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+          integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <title>Java and Dev conferences</title>
+</head>
+<body>
+<header>
+   <app-menu selected="conferences" title ="Java and Dev conferences" color="#2f4f90"></app-menu>
+ </header>
+
+<main>
+    <p class="github-conference">
+        Update the list
+        <a href="https://github.com/marco76/ngjava-conferences/blob/master/conferences.md">
+            Pull request <i class="fab fa-github"></i></a> | <a href="https://goo.gl/forms/7iRiSqCv46H4Ok0i2">Forms <i class="fab fa-google"></i></a>
+    </p>
+    <p id="tableContainer"></p>
+</main>
+<script src="./app.js"></script>
+<script src="./components/menu/menu.js"></script>
+<script src="./loadData.js" type="module"></script>
+<script src="./components/calendar/calendar.js"></script>
+<script src="./components/footer/footer.js"></script>
+<script src="./components/common-head/common-head.js"></script>
+<!--<script src="firstWebComponent.js"></script>-->
+</body>
+
+<footer>
+    <app-footer></app-footer>
+</footer>
+</html>

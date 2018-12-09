@@ -1,0 +1,15 @@
+<!-- Copyright (C) Schweizerische Bundesbahnen SBB, 2016. -->
+
+<assembly>
+    <id>assembly</id>
+    <formats>
+        <format>tar.gz</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <fileSets>
+        <fileSet>
+            <directory>dist</directory>
+            <outputDirectory>./</outputDirectory>
+        </fileSet>
+    </fileSets>
+</assembly>

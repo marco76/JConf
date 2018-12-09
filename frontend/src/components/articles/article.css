@@ -1,0 +1,40 @@
+#articleContainer {
+    margin: 0 auto;
+    max-width: 650px;
+    width: 66vw;
+}
+
+:root {
+    --header-background: cadetblue;
+}
+
+.article-header{
+    background: cadetblue;
+}
+
+h1 {
+    font-size: 30px;
+    color: rgb(62,62,62);
+    
+}
+
+.markdown,p {
+
+
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 1.3;
+    color: rgb(62,62,62);
+}
+
+pre {
+    font-size: 11px;
+}
+
+a:link, a:visited {
+    color: cadetblue;
+}
+
+a:hover {
+    color: tomato;  
+}
